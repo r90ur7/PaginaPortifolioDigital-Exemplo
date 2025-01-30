@@ -111,13 +111,13 @@
                 <img src="./imagens/portfolio2.svg">
             </div>
             <div  class="portfolioImg">
-                <img src="./imagens/portfolio3.svg">
+                <img src="imagens/portfolio3.svg">
             </div>
         </div>
     </body>
     <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const basePath = window.location.pathname.includes('/PaginaPortifolioDigital-Exemplo/') ? '/PaginaPortifolioDigital-Exemplo/' : '/';
+        const basePath = window.location.pathname.includes('/PaginaPortifolioDigital-Exemplo') ? '/PaginaPortifolioDigital-Exemplo/' : '/';
         
         document.querySelectorAll("img").forEach(img => {
         const src = img.getAttribute("src");
